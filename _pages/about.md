@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Ruixin Zhan | 詹睿新"
+title: "About Me"
 author_profile: true
 redirect_from:
   - /about/
@@ -32,7 +32,7 @@ My research focuses on developing intelligent systems that integrate advanced AI
 
 ## 📝 About This Site
 
-This academic portfolio is built with the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on [GitHub Pages](https://pages.github.com). Here you can find:
+This academic portfolio is currently under construction. This academic portfolio is built with the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on [GitHub Pages](https://pages.github.com). Here you can find:
 
 - 📄 My CV and research experience
 - 📚 Publications and conference papers
