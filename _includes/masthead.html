@@ -1,8 +1,10 @@
 {% include base_path %}
 {% if page.lang == 'zh' and site.zh_title %}
   {% assign masthead_title = site.zh_title %}
+  {% assign masthead_home = '/zh/' %}
 {% else %}
   {% assign masthead_title = site.title %}
+  {% assign masthead_home = '/' %}
 {% endif %}
 
 <div class="masthead">
@@ -11,8 +13,8 @@
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
-            <a href="{{ base_path }}/">{{ masthead_title }}</a>
+          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' or page.url == '/zh/' %}selected{% endif %}">
+            <a href="{{ masthead_home | prepend: base_path }}">{{ masthead_title }}</a>
           </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
