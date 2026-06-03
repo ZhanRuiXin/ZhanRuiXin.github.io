@@ -10,6 +10,7 @@
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Ruixin Zhan"
+zh_title                 : "詹睿新"
 title_separator          : "-"
 name                     : &name "Ruixin Zhan"
 description              : &description "Ruixin Zhan - Master's candidate in Intelligent Science and Technology at Northeastern University (China). Academic portfolio and research."
@@ -30,6 +31,13 @@ author:
   employer         : "Northeastern University (CN)"
   uri              : "https://ZhanRuiXin.github.io"
   email            : "zhan-ruixin@qq.com"
+
+  # Chinese biographic information (used when page.lang == 'zh')
+  zh_name          : "詹睿新"
+  zh_pronouns      : "他"
+  zh_bio           : "东北大学智能科学与技术专业硕士研究生。"
+  zh_location      : "中国沈阳"
+  zh_employer      : "东北大学"
 
   # Academic websites
   academia         : 

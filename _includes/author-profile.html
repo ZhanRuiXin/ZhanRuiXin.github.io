@@ -4,31 +4,46 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
+{% comment %} Pick Chinese or English personal info based on page.lang {% endcomment %}
+{% if page.lang == 'zh' %}
+  {% assign display_name = author.zh_name | default: author.name %}
+  {% assign display_pronouns = author.zh_pronouns | default: author.pronouns %}
+  {% assign display_bio = author.zh_bio | default: author.bio %}
+  {% assign display_location = author.zh_location | default: author.location %}
+  {% assign display_employer = author.zh_employer | default: author.employer %}
+{% else %}
+  {% assign display_name = author.name %}
+  {% assign display_pronouns = author.pronouns %}
+  {% assign display_bio = author.bio %}
+  {% assign display_location = author.location %}
+  {% assign display_employer = author.employer %}
+{% endif %}
+
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+    	<img src="{{ author.avatar }}" alt="{{ display_name }}"  fetchpriority="high" />
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ display_name }}"  fetchpriority="high" />
     {% endif %}
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 class="author__name">{{ display_name }}</h3>
+    {% if display_pronouns %}<p class="author__pronouns">{{ display_pronouns }}</p>{% endif %}
+    {% if display_bio %}<p class="author__bio">{{ display_bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[effective_locale].follow_button | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
-      {% if author.location %}
-        <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
+      {% if display_location %}
+        <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ display_location }}</li>
       {% endif %}
-      {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+      {% if display_employer %}
+        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ display_employer }}</li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[effective_locale].website_label | default: "Website" }}</a></li>
