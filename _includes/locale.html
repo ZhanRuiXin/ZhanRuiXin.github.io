@@ -1,0 +1,10 @@
+{% comment %}
+  Dynamically set effective_locale based on page.lang.
+  Include this early in the layout (before any ui-text usage).
+  Usage in other includes: site.data.ui-text[effective_locale].xxx
+{% endcomment %}
+{% if page.lang == 'zh' %}
+  {% assign effective_locale = 'zh' %}
+{% else %}
+  {% assign effective_locale = site.locale %}
+{% endif %}

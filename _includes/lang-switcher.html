@@ -7,11 +7,11 @@
   {% if target_url == '' %}
     {% assign target_url = '/' %}
   {% endif %}
-  <a href="{{ target_url | relative_url }}" class="lang-switcher" title="Switch to English">🇬🇧 EN</a>
+  <a href="{{ target_url | relative_url }}" class="lang-switcher" title="Switch to English">English</a>
 {% else %}
   {% assign target_url = page.url | prepend: '/zh' %}
   {% if page.url == '/' %}
     {% assign target_url = '/zh/' %}
   {% endif %}
-  <a href="{{ target_url | relative_url }}" class="lang-switcher" title="切换到中文">🇨🇳 中文</a>
+  <a href="{{ target_url | relative_url }}" class="lang-switcher" title="切换到中文">中文</a>
 {% endif %}
