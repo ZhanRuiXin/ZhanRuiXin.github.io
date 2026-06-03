@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About Me"
+lang: en
 author_profile: true
 redirect_from:
   - /about/
@@ -11,7 +12,7 @@ redirect_from:
 
 I'm **Ruixin Zhan (詹睿新)**, a Master's candidate in **Intelligent Science and Technology** at **Northeastern University (China)**. 
 
-My research focuses on developing intelligent systems that integrate advanced AI methodologies to solve real-world challenges. I am particularly interested in the intersections of machine learning, intelligent decision-making, and autonomous systems.
+My research focuses on developing intelligent systems that integrate advanced AI methodologies to solve real-world challenges. I am particularly interested in deep learning and multi-agent systems.
 
 ## 🎓 Education
 
@@ -26,9 +27,8 @@ My research focuses on developing intelligent systems that integrate advanced AI
 
 - Intelligent Science and Technology
 - Artificial Intelligence
-- Machine Learning
-- Intelligent Decision-Making Systems
-- Autonomous Systems
+- Deep Learning
+- Multi-Agent Technology
 
 ## 📝 About This Site
 
@@ -47,4 +47,4 @@ Feel free to reach out to me via:
 
 ---
 
-*Last updated: April 2026*
+*Last updated: June 2026*

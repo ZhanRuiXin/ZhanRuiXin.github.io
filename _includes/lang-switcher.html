@@ -1,0 +1,17 @@
+{% comment %}
+  Language switcher: toggles between English (/xxx/) and Chinese (/zh/xxx/)
+  Set page.lang = 'zh' in Chinese page front matter.
+{% endcomment %}
+{% if page.lang == 'zh' %}
+  {% assign target_url = page.url | remove_first: '/zh' %}
+  {% if target_url == '' %}
+    {% assign target_url = '/' %}
+  {% endif %}
+  <a href="{{ target_url | relative_url }}" class="lang-switcher" title="Switch to English">🇬🇧 EN</a>
+{% else %}
+  {% assign target_url = page.url | prepend: '/zh' %}
+  {% if page.url == '/' %}
+    {% assign target_url = '/zh/' %}
+  {% endif %}
+  <a href="{{ target_url | relative_url }}" class="lang-switcher" title="切换到中文">🇨🇳 中文</a>
+{% endif %}
