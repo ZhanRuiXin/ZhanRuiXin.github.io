@@ -10,18 +10,18 @@ redirect_from:
 
 ## 👋 Welcome
 
-I'm **Ruixin Zhan (詹睿新)**, a Master's candidate in **Intelligent Science and Technology** at **Northeastern University (China)**. 
-
-My research focuses on developing intelligent systems that integrate advanced AI methodologies to solve real-world challenges. I am particularly interested in deep learning and multi-agent systems.
+I'm **Ruixin Zhan (詹睿新)**, currently pursuing a Master's degree in **Intelligent Science and Technology** at the **School of Computer Science and Engineering**, **Northeastern University (China)**.
 
 ## 🎓 Education
 
 - **M.S. in Intelligent Science and Technology** (2026 - Present)
-  - Northeastern University (China), Shenyang
-  - Advisor: Prof. Xinchen Zhang
+  - School of Computer Science and Engineering, Northeastern University (China)
 
-- **B.S. in Artificial Intelligence** (2022 - 2026)
-  - Northeastern University (China), Shenyang
+- **B.S. in Artificial Intelligence** (2024 - 2026)
+  - School of Information Science and Engineering, Northeastern University (China)
+
+- **B.S. in Artificial Intelligence** (2022 - 2024)
+  - School of Computer Science and Engineering, Northeastern University (China)
 
 ## 🔬 Research Interests
 
