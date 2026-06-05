@@ -10,7 +10,7 @@ redirect_from:
 
 ## 👋 Welcome
 
-I'm **Ruixin Zhan (詹睿新)**, currently pursuing a Master's degree in **Intelligent Science and Technology** at the **School of Computer Science and Engineering**, **Northeastern University (China)**.
+I'm **Ruixin Zhan**, currently pursuing a Master's degree in **Intelligent Science and Technology** at the **School of Computer Science and Engineering**, **Northeastern University (China)**.
 
 ## 🎓 Education
 
