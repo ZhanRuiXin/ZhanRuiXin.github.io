@@ -10,18 +10,18 @@ redirect_from:
 
 ## 👋 Welcome
 
-I'm **Ruixin Zhan**, currently pursuing a Master's degree in **Intelligent Science and Technology** at the **School of Computer Science and Engineering**, **Northeastern University (China)**.
+I'm **Ruixin Zhan**, currently pursuing a Master's degree in **Intelligent Science and Technology** at the **College of Computer Science and Engineering**, **Northeastern University (China)**.
 
 ## 🎓 Education
 
 - **M.S. in Intelligent Science and Technology** (2026 - Present)
-  - School of Computer Science and Engineering, Northeastern University (China)
+  - College of Computer Science and Engineering, Northeastern University (China)
 
 - **B.S. in Artificial Intelligence** (2024 - 2026)
-  - School of Information Science and Engineering, Northeastern University (China)
+  - College of Information Science and Engineering, Northeastern University (China)
 
 - **B.S. in Artificial Intelligence** (2022 - 2024)
-  - School of Computer Science and Engineering, Northeastern University (China)
+  - College of Computer Science and Engineering, Northeastern University (China)
 
 ## 🔬 Research Interests
 
